@@ -5,3 +5,5 @@ Place a properties file - *cassandra.properties* in your classpath with the foll
 
     cassandra.node=hostname
     cassandra.schema=schema
+
+Tested on - Apache Cassandra v2.1.5 with Datastax Driver v2.1.6
