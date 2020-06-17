@@ -11,29 +11,10 @@
     <version>0.0.1</version>
     <name>Simple Cassandra DAO Base</name>
 
-    <organization>
-        <name>Not Working Labs</name>
-        <url>http://notwork.in</url>
-    </organization>
-
     <description>
         A set of base classes using which one can go ahead and build a simple DAO layer for Cassandra.
         Currently, it supports Cassandra v2.1.5 and Datastax driver v2.1.6.
     </description>
-
-    <developers>
-        <developer>
-            <name>Rishabh Joshi</name>
-            <email>mailbox@notwork.in</email>
-            <organization>Not Working Labs</organization>
-            <organizationUrl>http://notwork.in</organizationUrl>
-            <timezone>IST</timezone>
-        </developer>
-    </developers>
-
-    <issueManagement>
-        <url>https://github.com/rishabh9/cassandra-dao/issues</url>
-    </issueManagement>
 
     <licenses>
         <license>
@@ -45,6 +26,11 @@
     <scm>
         <url>https://github.com/rishabh9/cassandra-dao</url>
     </scm>
+
+    <properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -79,7 +65,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>4.1.4.RELEASE</version>
+            <version>5.2.7.RELEASE</version>
         </dependency>
     </dependencies>
 
